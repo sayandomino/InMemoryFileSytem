@@ -1,4 +1,4 @@
-# InMemoryFileSytem
+# An in-memory file system
 
 ## Run the application in local environment
 
