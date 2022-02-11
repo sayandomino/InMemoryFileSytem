@@ -8,7 +8,7 @@ Navigate to Application.java and run the application from any IDE. I used intell
 
 ### Create file
 
-Endpoint: http://localhost:8080/file/ (POST)
+Endpoint: `POST` http://localhost:8080/file/ 
 
 Payload:
 ``` 
@@ -19,7 +19,7 @@ Payload:
 ```
 ### Read file
 
-Endpoint: http://localhost:8080/file/<file_name>?start=<start_value>&offset=<offset>  (GET)
+Endpoint: `GET` http://localhost:8080/file/<file_name>?start=<start_value>&offset=<offset>
 
 ```$xslt
   <file_name> : Already inserted file name
@@ -29,7 +29,7 @@ Endpoint: http://localhost:8080/file/<file_name>?start=<start_value>&offset=<off
 
 ### Update file
 
-Endpoint: http://localhost:8080/file/<file_name> (PUT)
+Endpoint: `PUT` http://localhost:8080/file/<file_name>
 
 PayLoad:
 
@@ -44,7 +44,7 @@ file content will be appended/replaced based on isAppend parameter and true/fals
 
 ### Delete a file
 
-Endpoint: http://localhost:8080/file/<file_name> (DELETE)
+Endpoint: `DEL` http://localhost:8080/file/<file_name> 
 
 ```$xslt
  <file_name> : Existing filename to be deleted.
